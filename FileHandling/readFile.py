@@ -1,0 +1,10 @@
+f = open(r"C:\Users\vivek\OneDrive\Desktop\Python\FileHandling\sample.txt", "r+")
+data = f.read()
+print(data)
+f.write("\nThis line is added in r+ mode")
+# line1 = f.readline()
+# print(line1)
+
+# line2 = f.readline()
+# print(line2)
+f.close()
