@@ -1,3 +1,4 @@
+# Encapsulation : data hiding and data protection, wrapping data variables and methods in a single unit
 class Marks:
     def __init__(self, math, science):
         self.__math = math          # Private attribute
